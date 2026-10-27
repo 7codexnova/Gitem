@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gitem - persoonlijk leren met spaced repetition.">
+  <title>Gitem — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><div class="brand-mark">✦</div><span>Gitem</span></a>
+    <nav class="main-nav" aria-label="Hoofdnavigatie">
+      <a class="nav-item active" href="index.html"><span class="nav-icon">⌂</span><span>Home</span></a>
+      <a class="nav-item" href="pakketten.html"><span class="nav-icon">▣</span><span>Mijn pakketten</span></a>
+      <a class="nav-item" href="nieuwe-set.html"><span class="nav-icon">＋</span><span>Nieuwe set maken</span></a>
+      <a class="nav-item" href="zoeken.html"><span class="nav-icon">⌕</span><span>Zoeken</span></a>
+      <a class="nav-item" href="statistieken.html"><span class="nav-icon">▥</span><span>Statistieken</span></a>
+      <a class="nav-item" href="instellingen.html"><span class="nav-icon">⚙</span><span>Instellingen</span></a>
+    </nav>
+    <div class="sidebar-user"><div class="avatar avatar-small">M</div><div><strong>Mila</strong><span>15 dagen streak 🔥</span></div></div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div class="search"><span class="search-icon">⌕</span><input type="search" placeholder="Zoek een set, onderwerp of maak zelf..." aria-label="Zoeken"><kbd>⌘ K</kbd></div>
+      <div class="top-actions"><button class="icon-button" aria-label="Meldingen">♧</button><button class="icon-button" aria-label="Thema">☾</button><div class="avatar">M</div></div>
+    </header>
+
+    <div class="page-grid">
+      <div class="left-content">
+        <section class="welcome">
+          <p class="eyebrow">GOED OM JE WEER TE ZIEN</p>
+          <h1>Hey Mila! <span>👋</span></h1>
+          <p class="welcome-text">Klaar om vandaag weer iets nieuws te leren?</p>
+        </section>
+
+        <div class="dashboard-main">
+          <section class="quick-actions">
+            <article class="action-card purple-card"><div class="action-icon">＋</div><h2>Nieuwe set maken</h2><p>Voeg zelf leerstof toe en laat Gitem de rest doen.</p><a href="nieuwe-set.html">Beginnen →</a></article>
+            <article class="action-card green-card"><div class="action-icon">ϟ</div><h2>Spaced repetition</h2><p>Herhaal op het juiste moment voor het beste resultaat.</p><a href="pakketten.html">Verder leren →</a></article>
+            <article class="action-card orange-card"><div class="action-icon">▤</div><h2>Kant-en-klare pakketten</h2><p>Kies uit duizenden sets voor school, talen en meer.</p><a href="zoeken.html">Ontdekken →</a></article>
+          </section>
+
+          <section class="section">
+            <div class="section-heading"><h2>Mijn leerpakketten</h2><a href="pakketten.html">Bekijk alles →</a></div>
+            <div class="package-grid">
+              <article class="package-card"><div class="subject-icon biology">✿</div><button class="more-button">⋮</button><h3>Biologie</h3><p>32 kaarten</p><div class="progress-track"><span style="width:76%"></span></div><div class="progress-meta"><span>76% klaar</span></div></article>
+              <article class="package-card"><div class="subject-icon english">⌂</div><button class="more-button">⋮</button><h3>Engels</h3><p>48 kaarten</p><div class="progress-track"><span style="width:52%"></span></div><div class="progress-meta"><span>52% klaar</span></div></article>
+              <article class="package-card"><div class="subject-icon maths">∑</div><button class="more-button">⋮</button><h3>Wiskunde</h3><p>24 kaarten</p><div class="progress-track"><span style="width:33%"></span></div><div class="progress-meta"><span>33% klaar</span></div></article>
+              <article class="package-card"><div class="subject-icon history">▥</div><button class="more-button">⋮</button><h3>Geschiedenis</h3><p>18 kaarten</p><div class="progress-track"><span style="width:89%"></span></div><div class="progress-meta"><span>89% klaar</span></div></article>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-heading"><h2>Aanbevolen voor jou</h2><a href="zoeken.html">Bekijk alles →</a></div>
+            <div class="recommendations">
+              <article class="recommendation-card"><div class="recommendation-image image-france"></div><div class="recommendation-body"><h3>Taalpakket: Frans</h3><p>100 kaarten · Beginner - Gevorderd</p></div></article>
+              <article class="recommendation-card"><div class="recommendation-image image-study"></div><div class="recommendation-body"><h3>Study tips</h3><p>10 kaarten · Effectief leren</p></div></article>
+              <article class="recommendation-card"><div class="recommendation-image image-nature"></div><div class="recommendation-body"><h3>Natuurkunde</h3><p>42 kaarten · Middel</p></div></article>
+              <article class="recommendation-card"><div class="recommendation-image image-exam"></div><div class="recommendation-body"><h3>Examenvoorbereiding</h3><p>120 kaarten · Middel - Gevorderd</p></div></article>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <aside class="right-column">
+        <section class="panel progress-panel">
+          <div class="panel-heading"><h2>Jouw voortgang</h2></div>
+          <div class="progress-ring"><div><strong>68%</strong><span>Deze week</span></div></div>
+          <div class="week-change">+12% t.o.v. vorige week ↗</div>
+          <div class="stats"><div><strong>5</strong><span>Gesloten<br>sets</span></div><div><strong>3</strong><span>Nieuwe<br>sets</span></div><div><strong>2u 14m</strong><span>Leren<br>vandaag</span></div></div>
+          <div class="encouragement"><span>☆</span><div><strong>Goed bezig!</strong><p>Je consistentie maakt echt het verschil.</p></div></div>
+        </section>
+        <section class="panel reviews-panel">
+          <div class="panel-heading"><h2>Volgende reviews</h2><a href="pakketten.html">Bekijk alles →</a></div>
+          <ul class="review-list">
+            <li><span class="review-dot biology-dot"></span><div><strong>Biologie - Hoofdstuk 4</strong><small>Vandaag, 16:00</small></div></li>
+            <li><span class="review-dot english-dot"></span><div><strong>Engels - Vocabulary</strong><small>Vandaag, 16:30</small></div></li>
+            <li><span class="review-dot maths-dot"></span><div><strong>Wiskunde - Formules</strong><small>Morgen, 09:00</small></div></li>
+            <li><span class="review-dot history-dot"></span><div><strong>Geschiedenis - Tijdlijn</strong><small>Morgen, 14:00</small></div></li>
+          </ul>
+        </section>
+        <section class="break-card"><div class="break-illustration">◒</div><div><h3>Even pauze?</h3><p>You got this. 💜</p></div></section>
+      </aside>
+    </div>
+  </main>
+</div>
+</body>
+</html>

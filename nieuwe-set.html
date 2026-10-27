@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gitem — Nieuwe set maken</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar"><a class="brand" href="index.html"><div class="brand-mark">✦</div><span>Gitem</span></a><nav class="main-nav">
+    <a class="nav-item" href="index.html"><span class="nav-icon">⌂</span><span>Home</span></a><a class="nav-item" href="pakketten.html"><span class="nav-icon">▣</span><span>Mijn pakketten</span></a><a class="nav-item active" href="nieuwe-set.html"><span class="nav-icon">＋</span><span>Nieuwe set maken</span></a><a class="nav-item" href="zoeken.html"><span class="nav-icon">⌕</span><span>Zoeken</span></a><a class="nav-item" href="statistieken.html"><span class="nav-icon">▥</span><span>Statistieken</span></a><a class="nav-item" href="instellingen.html"><span class="nav-icon">⚙</span><span>Instellingen</span></a>
+  </nav><div class="sidebar-user"><div class="avatar avatar-small">M</div><div><strong>Mila</strong><span>15 dagen streak 🔥</span></div></div></aside>
+  <main class="main-content">
+    <header class="topbar"><div class="search"><span class="search-icon">⌕</span><input type="search" placeholder="Zoek een set, onderwerp of maak zelf..."><kbd>⌘ K</kbd></div><div class="top-actions"><button class="icon-button">♧</button><button class="icon-button">☾</button><div class="avatar">M</div></div></header>
+    <div class="content-page">
+      <div class="page-title-row"><div><p class="eyebrow">START MET LEREN</p><h1>Nieuwe set maken</h1><p>Maak zelf een pakket met leerstof die jij wilt onthouden.</p></div></div>
+      <div class="create-layout">
+        <section class="form-card">
+          <div class="form-section"><label for="title">Naam van je set</label><input id="title" class="form-input" type="text" placeholder="Bijvoorbeeld: Biologie hoofdstuk 5"></div>
+          <div class="form-row"><div class="form-section"><label for="subject">Vak of onderwerp</label><select id="subject" class="form-input"><option>Kies een onderwerp</option><option>Biologie</option><option>Engels</option><option>Wiskunde</option><option>Geschiedenis</option><option>Anders</option></select></div><div class="form-section"><label for="category">Categorie</label><select id="category" class="form-input"><option>School</option><option>Talen</option><option>Persoonlijk</option></select></div></div>
+          <div class="form-section"><label for="description">Beschrijving <span>optioneel</span></label><textarea id="description" class="form-input textarea" placeholder="Waar gaat deze set over?"></textarea></div>
+          <div class="form-section"><label>Kaarten toevoegen</label><div class="card-editor"><div><span>VOORKANT</span><input class="form-input" placeholder="Vraag of begrip"></div><div><span>ACHTERKANT</span><input class="form-input" placeholder="Antwoord of uitleg"></div></div><button class="add-card-button">＋ Nog een kaart toevoegen</button></div>
+          <div class="form-actions"><a class="secondary-button" href="pakketten.html">Annuleren</a><button class="primary-button">Set opslaan</button></div>
+        </section>
+        <aside class="create-help"><div class="help-icon">✦</div><h2>Maak leren makkelijk</h2><p>Gitem gebruikt spaced repetition om je kaarten op het juiste moment opnieuw te laten zien.</p><div class="help-tip"><strong>Tip</strong><span>Gebruik korte vragen en duidelijke antwoorden voor het beste resultaat.</span></div></aside>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gitem — Mijn pakketten</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><div class="brand-mark">✦</div><span>Gitem</span></a>
+    <nav class="main-nav">
+      <a class="nav-item" href="index.html"><span class="nav-icon">⌂</span><span>Home</span></a>
+      <a class="nav-item active" href="pakketten.html"><span class="nav-icon">▣</span><span>Mijn pakketten</span></a>
+      <a class="nav-item" href="nieuwe-set.html"><span class="nav-icon">＋</span><span>Nieuwe set maken</span></a>
+      <a class="nav-item" href="zoeken.html"><span class="nav-icon">⌕</span><span>Zoeken</span></a>
+      <a class="nav-item" href="statistieken.html"><span class="nav-icon">▥</span><span>Statistieken</span></a>
+      <a class="nav-item" href="instellingen.html"><span class="nav-icon">⚙</span><span>Instellingen</span></a>
+    </nav>
+    <div class="sidebar-user"><div class="avatar avatar-small">M</div><div><strong>Mila</strong><span>15 dagen streak 🔥</span></div></div>
+  </aside>
+  <main class="main-content">
+    <header class="topbar"><div class="search"><span class="search-icon">⌕</span><input type="search" placeholder="Zoek een set, onderwerp of maak zelf..."><kbd>⌘ K</kbd></div><div class="top-actions"><button class="icon-button">♧</button><button class="icon-button">☾</button><div class="avatar">M</div></div></header>
+    <div class="content-page">
+      <div class="page-title-row"><div><p class="eyebrow">JOUW LEEROMGEVING</p><h1>Mijn pakketten</h1><p>Al je persoonlijke leerpakketten op één plek.</p></div><a class="primary-button" href="nieuwe-set.html">＋ Nieuwe set</a></div>
+      <div class="filter-bar"><button class="filter-button active">Alle</button><button class="filter-button">School</button><button class="filter-button">Talen</button><button class="filter-button">Persoonlijk</button><div class="filter-spacer"></div><select><option>Sorteer op: Recent</option><option>Voortgang</option><option>Naam</option></select></div>
+      <section class="large-package-grid">
+        <article class="large-package-card"><div class="large-package-top"><div class="subject-icon biology">✿</div><span class="package-tag">School</span></div><h2>Biologie</h2><p>Hoofdstuk 1 t/m 4 · 32 kaarten</p><div class="progress-track"><span style="width:76%"></span></div><div class="package-footer"><span>76% klaar</span><a href="#">Leren →</a></div></article>
+        <article class="large-package-card"><div class="large-package-top"><div class="subject-icon english">⌂</div><span class="package-tag">Taal</span></div><h2>Engels</h2><p>Vocabulary · 48 kaarten</p><div class="progress-track"><span style="width:52%"></span></div><div class="package-footer"><span>52% klaar</span><a href="#">Leren →</a></div></article>
+        <article class="large-package-card"><div class="large-package-top"><div class="subject-icon maths">∑</div><span class="package-tag">School</span></div><h2>Wiskunde</h2><p>Formules · 24 kaarten</p><div class="progress-track"><span style="width:33%"></span></div><div class="package-footer"><span>33% klaar</span><a href="#">Leren →</a></div></article>
+        <article class="large-package-card"><div class="large-package-top"><div class="subject-icon history">▥</div><span class="package-tag">School</span></div><h2>Geschiedenis</h2><p>Tijdlijn · 18 kaarten</p><div class="progress-track"><span style="width:89%"></span></div><div class="package-footer"><span>89% klaar</span><a href="#">Leren →</a></div></article>
+        <article class="large-package-card empty-add-card"><div class="add-circle">＋</div><h2>Nieuw pakket</h2><p>Maak een eigen set en begin direct met leren.</p><a class="secondary-button" href="nieuwe-set.html">Set maken</a></article>
+      </section>
+    </div>
+  </main>
+</div>
+</body>
+</html>
